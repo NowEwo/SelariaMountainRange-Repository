@@ -1,0 +1,1 @@
+Terminal.echo("Welcome to the test package ! if you see this , your apt command works !");
