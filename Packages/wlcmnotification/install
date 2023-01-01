@@ -1,13 +1,13 @@
-function App(){
+var App = () => {
     Shell.ShowNotification({
         "Title" : "Hi !",
         "Text" : "Welcome to your Selaria MountainRange !",
         "Event" : "return true;",
     });
-}
+};
 
 var FileSystem = new FFS("SelariaHD");
 
-FileSystem.writeFile("/boot/wlcmnotification" , new String(App));
+FileSystem.writeFile("/boot/wlcmnotification" , new String(App)+"App();");
 
 Terminal.echo("Reload your shell to view the notification ( ssc shell reload ) !");
