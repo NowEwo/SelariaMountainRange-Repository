@@ -8,6 +8,6 @@ function App(){
 
 var FileSystem = new FFS("SelariaHD");
 
-FileSystem.writeFile("/boot/wlcmnotification");
+FileSystem.writeFile("/boot/wlcmnotification" , new String(App));
 
-Terminal.echo("Reload your shell to view the notification ( ssc shell reload ) !")
+Terminal.echo("Reload your shell to view the notification ( ssc shell reload ) !");
