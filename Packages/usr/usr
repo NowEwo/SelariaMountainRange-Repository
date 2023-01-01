@@ -1,0 +1,6 @@
+if(BashCommand["Arguments"].indexOf("s") > -1){
+    var BootArgumentsVariable = JSON.parse(localStorage["BootArguments"]) ;
+    BootArgumentsVariable["User"] = BashCommand["SubCommands"][0] ;
+    localStorage["BootArguments"] = JSON.stringify(BootArgumentsVariable);
+    Kernel.ReloadUser();
+}
