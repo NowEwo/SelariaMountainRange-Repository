@@ -2,7 +2,7 @@ DIR /bin/Makenew-desktop
 DIR /bin/Makenew-boot
 DIR /bin/Makenew-OS
 DIR /bin/Makenew-usr
-Desktop.js > /bin/Makenew-desktop/Makenew-desktop
-OS.js > /bin/Makenew-OS/Makenew-OS
-Boot.js > /bin/Makenew-boot/Makenew-boot
-Usr.js > /bin/Makenew-usr/Makenew-usr
+/bin/Makenew-usr/Makenew-usr > Usr.js
+/bin/Makenew-boot/Makenew-boot > Boot.js
+/bin/Makenew-OS/Makenew-OS > OS.js
+/bin/Makenew-desktop/Makenew-desktop > Desktop.js
