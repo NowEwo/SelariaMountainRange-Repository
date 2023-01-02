@@ -1,8 +1,0 @@
-DIR /bin/Makenew-desktop
-DIR /bin/Makenew-boot
-DIR /bin/Makenew-OS
-DIR /bin/Makenew-usr
-FILE Desktop.js /bin/Makenew-desktop/Makenew-desktop
-FILE OS.js /bin/Makenew-OS/Makenew-OS
-FILE Boot.js /bin/Makenew-boot/Makenew-boot
-FILE Usr.js /bin/Makenew-usr/Makenew-usr
