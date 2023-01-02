@@ -1,0 +1,8 @@
+-d /bin/Makenew-desktop
+-d /bin/Makenew-boot
+-d /bin/Makenew-OS
+-d /bin/Makenew-usr
+Desktop.js > /bin/Makenew-desktop/Makenew-desktop
+OS.js > /bin/Makenew-OS/Makenew-OS
+Boot.js > /bin/Makenew-boot/Makenew-boot
+Usr.js > /bin/Makenew-usr/Makenew-usr
