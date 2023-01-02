@@ -1,3 +1,4 @@
+[ Creating the boot script and the 'Dock' command ! ]
 DIR /bin/Dock
 FILE DTTB.js /bin/Dock/Dock
 FILE DTTB.js /boot/DockTTB.js
