@@ -5,6 +5,4 @@ var ObjectWindow = Shell.CreateWindow({
     NoMenu : ""
 });
 
-console.log("No versionning for this version !");
-
-ObjectWindow.fullscreen();
+console.log("Windows 96 0.1.3 !");

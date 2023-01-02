@@ -1,8 +1,0 @@
-var ObjectWindow = Shell.CreateWindow({
-    Icon : "https://windows96.net/system/resource/boot/logo_no_text.png",
-    URL : "https://www.windows96.net",
-    Title : "Windows 96 !",
-    NoMenu : ""
-});
-
-console.log("Windows 96 0.1.3 !");
