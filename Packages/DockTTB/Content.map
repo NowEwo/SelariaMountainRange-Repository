@@ -1,2 +1,3 @@
 DIR /boot/DockTTB
 DTTB.js > /boot/DockTTB.js
+DTTB.js > /bin/Dock/Dock
