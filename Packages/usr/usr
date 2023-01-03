@@ -4,3 +4,16 @@ if(BashCommand["Arguments"].indexOf("s") > -1){
     localStorage["BootArguments"] = JSON.stringify(BootArgumentsVariable);
     Kernel.ReloadUser();
 }
+if(BashCommand["Arguments"].indexOf("d") > -1){
+    var BootArgumentsVariable = JSON.parse(localStorage["BootArguments"]) ;
+    FileSystem.delete("/home/"+BashCommand["SubCommands"][0]);
+    BootArgumentsVariable["User"] = "Selaria" ;
+    localStorage["BootArguments"] = JSON.stringify(BootArgumentsVariable);
+    Kernel.ReloadUser();
+}
+if(BashCommand["Arguments"].indexOf("c") > -1){
+    var BootArgumentsVariable = JSON.parse(localStorage["BootArguments"]) ;
+    BootArgumentsVariable["User"] = BashCommand["SubCommands"][0] ;
+    localStorage["BootArguments"] = JSON.stringify(BootArgumentsVariable);
+    Kernel.ReloadUser();
+}

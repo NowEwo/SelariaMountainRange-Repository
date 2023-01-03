@@ -4,5 +4,3 @@ var ObjectWindow = Shell.CreateWindow({
     Title : "Windows 96 !",
     NoMenu : ""
 });
-
-console.log("Windows 96 0.1.3 !");
