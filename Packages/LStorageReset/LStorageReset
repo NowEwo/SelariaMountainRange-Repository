@@ -1,0 +1,4 @@
+localStorage.clear();
+if(BashCommand["Arguments"].indexOf("r") > -1){
+    Kernel.Reload();
+}
