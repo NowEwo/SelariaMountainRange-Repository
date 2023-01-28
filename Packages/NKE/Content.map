@@ -1,0 +1,3 @@
+[ Set the position of the kernel ]
+DIR /etc/Kernel
+FILE NKE.js /etc/Kernel/
