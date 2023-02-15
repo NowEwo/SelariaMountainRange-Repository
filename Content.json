@@ -1,0 +1,32 @@
+[
+    {
+        "Name" : "Windows 96",
+        "Description" : "Launch Windows 96 in Selaria MountainRange !",
+        "PackageName" : "w96"
+    },
+    {
+        "Name" : "Dock By Taskbar",
+        "Description" : "Make the MountainDesktop taskbar look like dock !",
+        "PackageName" : "DockTTB"
+    },
+    {
+        "Name" : "Flash",
+        "Description" : "Flash JSON files directly from the CLI !",
+        "PackageName" : "Flash"
+    },
+    {
+        "Name" : "TestPackage ( Test )",
+        "Description" : "Just a test to apt !",
+        "PackageName" : "TestPackage"
+    },
+    {
+        "Name" : "Local Storage Reset",
+        "Description" : "Delete all your Local Storage !",
+        "PackageName" : "LStorageReset"
+    },
+    {
+        "Name" : "User",
+        "Description" : "Simply change the user !",
+        "PackageName" : "usr"
+    }
+]
