@@ -1,0 +1,9 @@
+var Content = FileSystem.getFileContent(CommandString.replace("Flash ", "")).result;
+Content = JSON.parse(Content);
+for(Entry in Content.Files){
+    var Path = Content.Files[Entry].Content
+    Content.Files[Entry].Content = FileSystem.getFileContent(Path.replace("~" , "/home/"+Kernel.User["Name"])).result;
+}
+Content = JSON.stringify(Content)
+Kernel.Socket.emit("Flash" , Content);
+Terminal.echo("Flashed !")
