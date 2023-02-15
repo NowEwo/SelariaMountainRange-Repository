@@ -5,7 +5,7 @@
         "PackageName" : "w96"
     },
     {
-        "Name" : "Dock By Taskbar",
+        "Name" : "Dock My Taskbar",
         "Description" : "Make the MountainDesktop taskbar look like dock !",
         "PackageName" : "DockTTB"
     },
