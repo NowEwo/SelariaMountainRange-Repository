@@ -37,7 +37,7 @@
     {
         "Name" : "Restart shortcut",
         "Description" : "Add a shortcut to the start menu to restart your Selaria MountainRange !",
-        "PackageName" : "TestPackage",
+        "PackageName" : "",
         "StartMenuEntry" : {
             "Name" : "Restart",
             "Description" : "Restart your Selaria MountainRange !",
