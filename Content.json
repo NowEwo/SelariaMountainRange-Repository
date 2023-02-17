@@ -33,5 +33,11 @@
         "Name" : "User",
         "Description" : "Simply change the user !",
         "PackageName" : "usr"
+    },
+    {
+        "Name" : "Custom recovery !",
+        "Description" : "flash , repair and other without launching kernel !",
+        "PackageName" : "CustomRecovery",
+        "API" : 3
     }
 ]
