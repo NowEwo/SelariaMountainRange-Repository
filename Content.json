@@ -33,16 +33,5 @@
         "Name" : "User",
         "Description" : "Simply change the user !",
         "PackageName" : "usr"
-    },
-    {
-        "Name" : "Restart shortcut",
-        "Description" : "Add a shortcut to the start menu to restart your Selaria MountainRange !",
-        "PackageName" : "",
-        "API" : 2,
-        "StartMenuEntry" : {
-            "Name" : "Restart",
-            "Description" : "Restart your Selaria MountainRange !",
-            "PackageName" : "reboot"
-        }
     }
 ]
