@@ -33,10 +33,5 @@
         "Name" : "User",
         "Description" : "Simply change the user !",
         "PackageName" : "usr"
-    },
-    {
-        "Name" : "Ambient Terminal",
-        "Description" : "Your Terminal on your desktop !",
-        "PackageName" : "AmbientTerminal"
     }
 ]
