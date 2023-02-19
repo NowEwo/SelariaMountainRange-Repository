@@ -1,1 +1,6 @@
-FILE AmbientTerminal.js /boot/AmbientTerminal.js
+[ Creating the boot script and the 'Dock' command and the 'DockTTB' for the Store compatibility !]
+DIR /bin/Dock
+DIR /bin/DockTTB
+FILE DTTB.js /bin/Dock/Dock
+FILE DTTB.js /bin/DockTTB/DockTTB
+FILE DTTB.js /boot/DockTTB.js
